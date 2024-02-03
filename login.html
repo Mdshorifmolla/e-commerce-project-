@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Economic project</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!--navbar starts hear-->
+  
+    <img class="fas fa-bars fa-2x" src="/images/menu-icon.web" id="menu-icon">
+    <nav id="menu" class="hidden">
+      <ul class="nav-upper flex-space-around">
+          <li class="nav-list">
+              <a class="nav-link" href="/index.html">Home</a>
+          </li>
+          <li class="nav-list">
+              <a class="nav-link" href="/register.html">Register</a>
+          </li>
+          <li class="nav-list">
+              <a class="nav-link" href="/login.html">Login</a>
+          </li>
+          <li class="nav-list">
+              <a class="nav-link" href="/index.html">Logout</a>
+          </li>
+          <li class="nav-list">
+              <a class="nav-link" href="/contact.html">Contact</a>
+          </li>
+          <li class="nav-list">
+              <a class="nav-link" href="/profile.html">
+                  <img class="profile-icon" src="./images/ashif.jpg" alt="">
+              </a>
+          </li>
+      </ul>
+      
+      <ul class="nav-lower flex-space-around">
+          <li class="nav-list">
+              <a class="nav-brand nav-link" href="/index.html">Sharif Express</a>
+          </li>
+          <li class="nav-list">
+              <a class="nav-link" href="/cart.html">
+                  <span><img class="fa-solid fa-cart" src="./images/3.png" ></span>
+                  Cart to products
+              </a>
+          </li>
+          
+      </ul>
+
+  </nav>
+  
+  <!--navbar ends hear-->
+  <main>
+      <section class="registerr">
+          <h2 class="section-title text-center">user registration</h2>
+          <div class="card">
+              <form action="" class="form">
+                  <div class="from-control flex-center">
+                      <label for="name">name</label>
+                      <input type="text" name="" id="namee" required autocomplete="name">
+                      
+                   
+                      
+                  </div>
+                  <div class="from-control flex-center">
+                      <label for="email">Email</label>
+                      <input type="email" name="" id="email" required autocomplete="email">
+                   </div>
+                   <div class="from-control flex-center">
+                      <label for="password">Password </label>
+                      <input type="password" name="" id="password" required autocomplete="password">
+                   </div>
+                   <div class="from-control flex-center">
+                      <label for="about">About me</label>
+                      <textarea name="about" id="about" ></textarea>
+                   </div>
+                   <div class="from-control flex-center form-btn-field">
+                      
+                      <button class="btn contact-btn">Submit</button>
+                   </div>
+              </form>
+              
+          </div>
+          
+      </section>
+         
+      
+  </main>
+  <main class="register-main ">
+      
+         <div class="register">
+             <h2>Login </h2>
+         
+             <form id="register " method=" post">
+                 <label for="email">email</label>
+                 <br>
+                 
+                 <input type="email" name="email" id="name" placeholder="Enter Your Valid Email...  ">
+                 <br><br>
+                 <label>Password : </label>
+                 <br>
+                 <input type="password " name="password " id="name" placeholder="Enter Your Password...   "><br><br>
+         
+                 
+                 <br><br>
+                 <input class="register-btn" type="submit" value="Submit" id="submit">
+         
+         
+             </form>
+         
+         </div> 
+      
+  </main>
+  
+  <!--futter start hear-->
+    <footer class="footer flex-space-around">
+        <label for="subscribe">subscribe to news letter</label>
+        <input type="email" name="subscribe" id="subscribe" class="futter-input" placeholder="Your email address">
+        <button class="btn btn-subscribe">subscribe</button>
+        <div class="flex-space-around">
+            <p>&copy;copyright 2023 Sharif, all right rserved</p>
+        </div>
+    </footer>
+  <!-- fuffer ends hear-->
+  
+  <script src="main.js"></script>
+</body>
+</html>

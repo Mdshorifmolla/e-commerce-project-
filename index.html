@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>E-commerce project</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!--navbar starts hear-->
+  <img class="fas fa-bars fa-2x" src="./images/menu-icon.webp" id="menu_icon" >
+  
+  <nav id="menu" class="hidden">
+      <ul class="nav-upper flex-space-around">
+          <li class="nav-list">
+              <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-list">
+              <a class="nav-link" href="register.html">Register</a>
+          </li>
+          <li class="nav-list">
+              <a class="nav-link" href="login.html">Login</a>
+          </li>
+          <li class="nav-list">
+              <a class="nav-link" href="index.html">Logout</a>
+          </li>
+          <li class="nav-list">
+              <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-list">
+              <a class="nav-link" href="profile.html">
+                  <img class="profile-icon" src="./images/ashif.jpg" alt="">
+              </a>
+          </li>
+      </ul>
+      
+      <ul class="nav-lower flex-space-around">
+          <li class="nav-list">
+              <a class="nav-brand nav-link" href="upload.html">Upload File</a>
+          </li>
+          
+          <li class="nav-list">
+              <a class="nav-link" href="cart.html">
+                  <span><img class="fa-solid fa-cart" src="./images/3.png"  ></span>
+                  Cart to products
+              </a>
+          </li>
+          
+          
+      </ul>
+      
+
+  </nav>
+  
+  <!--navbar ends hear-->
+  
+  <!--hadder start hear-->
+    <div class="headar ">
+      <div class="banner flex-space-around">
+        <marquee class="banner-title" behavior="" direction="">50% of discount</marquee>
+      </div>
+      <div class="features flex-space-around">
+          <article class="feature flex-center">
+              <img class="feature-icon" src="./images/4.png" >
+              <h3>shopping 7day</h3>
+          </article>
+          <article class="feature flex-center">
+              <img class="feature-icon" src="./images/4.png" >
+              <h3>support 24/7</h3>
+          </article>
+          <article class="feature flex-center">
+              <img class="feature-icon" src="./images/4.png" >
+              <h3>safe payment</h3>
+          </article>
+      </div>
+    </div>
+  <!--hadder ends hear -->
+  <main class="main flex-center">
+      <div class="sidebar">
+          <section class="categories-section">
+              <h3 class="section-title">categories</h3>
+              <ul class="list">
+                  <li class="list-item">
+                      <label for="phone">
+                     <input type="checkbox" name="phone" id="phone" value="phone"> 
+                     phone
+                      </label>
+                  </li>
+                  <li class="list-item">
+                      <label for="tablets">
+                     <input type="checkbox" name="tablats" id="tablats" value="tablats"> 
+                     tablats
+                      </label>
+                  </li>
+                  <li class="list-item">
+                      <label for="television">
+                     <input type="checkbox" name="television" id="television" value="television"> 
+                     television
+                      </label>
+                  </li>
+                  <li class="list-item">
+                      <label for="computer">
+                     <input type="checkbox" name="computer" id="computer" value="computer"> 
+                     computer
+                      </label>
+                  </li>
+                  <li class="list-item">
+                      <label for="headphone">
+                     <input type="checkbox" name="headphone" id="headphone" value="headphone"> 
+                     headphone
+                      </label>
+                  </li>
+                  
+              </ul>
+              
+          </section>
+          <section class="price-section">
+              <h3 class="section-title">price-rangs</h3>
+              <ul class="list">
+                  <li class="list-item">
+                      <label for="price1">
+                     <input type="radio" name="price1" id="price1" value="price1"> 
+                     $0-$20
+                      </label>
+                  </li>
+                  <li class="list-item">
+                      <label for="price1">
+                     <input type="radio" name="price1" id="price1" value="price1"> 
+                     $0-$20
+                      </label>
+                  </li>
+                  <li class="list-item">
+                      <label for="price1">
+                     <input type="radio" name="price1" id="price1" value="price1"> 
+                     $0-$20
+                      </label>
+                  </li>
+                  <li class="list-item">
+                      <label for="price1">
+                     <input type="radio" name="price1" id="price1" value="price1"> 
+                     $0-$20
+                      </label>
+                  </li>
+                  <li class="list-item">
+                      <label for="price1">
+                     <input type="radio" name="price1" id="price1" value="price1"> 
+                     $0-$20
+                      </label>
+                  </li>
+                  
+                  
+              </ul>
+              <section class="shipping-section">
+              <h3 class="section-title">shipping option</h3>
+              <ul class="list">
+                  <li class="list-item">
+                      <label for="price1">
+                     <input type="radio" name="free" id="free" value="free"> 
+                     free
+                      </label>
+                  </li>
+                  <li class="list-item">
+                      <label for="paid">
+                     <input type="radio" name="paid" id="paid" value="paid"> 
+                     paid
+                      </label>
+                  </li>
+              </ul>
+                  
+              </section>
+              
+          </section>
+      </div>
+      <div class="main-content">
+          <section class="actions flex-space-around">
+              <div class="actions-sort">
+                  <label for="sort">sort by:</label>
+                  <select name="sort" id="sort">
+                      <option value="sold">most popular
+                          </option>
+                          <option value="sold">most popular
+                          </option>
+                          <option value="sold">most popular
+                          </option>
+                          <option value="sold">most popular
+                          </option>
+                          <option value="sold">most popular
+                          </option>
+                          
+                  </select>
+              </div>
+              <div class="actions-search">
+                  <input type="search" placeholder="search products">
+                  <button type="button">search</button>
+                  
+              </div>
+              
+          </section>
+          <!--product section start hear-->
+          <section class="products">
+              
+              <article class="product card">
+                  <div class="badge">
+                      <span>5 in stock</span>
+                      <hr class="hr-design">
+                      <span>3 sold</span>
+                      
+                  </div>
+                  <img class="product-dtl" src="./images/Ashif.jpg" alt="product1">
+                  <div class="product-body">
+                      <h3 class="product-name">product</h3>
+                      <p>
+                          <span class="dot green"></span>
+                          <span class="dot black"></span>
+                          <span class="dot red"></span>
+                      </p>
+                      <p class="product-description">
+                          Disclaimer.
+                   In this video, segments of product stock ...
+                    <a class="learn-more" href="/products.html">Learn more</a>
+                      </p>
+                      <h4 class="product-price">$23.50</h4>
+                      <p class="product-rating">rating: 4.5/5</p>
+                      <a href="/products.html"> <button class="btn product-button">
+                              Add to cart
+                       </button></a>
+                  </div>
+                  
+              </article>
+              <article class="product card">
+                  <div class="badge">
+                      <span>5 in stock</span>
+                      <hr class="hr-design">
+                      <span>3 sold</span>
+                      
+                  </div>
+                  <img class="product-dtl" src="./images/3.png" alt="product1">
+                  <div class="product-body">
+                      <h3 class="product-name">product</h3>
+                      <p>
+                          <span class="dot green"></span>
+                          <span class="dot black"></span>
+                          <span class="dot red"></span>
+                      </p>
+                      <p class="product-description">
+                          Disclaimer.
+                   In this video, segments of product stock ...
+                    <a class="learn-more" href="/products.html">Learn more</a>
+                      </p>
+                      <h4 class="product-price">$23.50</h4>
+                      <p class="product-rating">rating: 4.5/5</p>
+                      <a href="/products.html"> <button class="btn product-button">
+                              Add to cart
+                      </button></a>
+                  </div>
+                  
+              </article>
+              <article class="product card">
+                  <div class="badge">
+                      <span>5 in stock</span>
+                      <hr class="hr-design">
+                      <span>3 sold</span>
+                      
+                  </div>
+                  <img class="product-dtl" src="./images/3.png" alt="product1">
+                  <div class="product-body">
+                      <h3 class="product-name">product</h3>
+                      <p>
+                          <span class="dot green"></span>
+                          <span class="dot black"></span>
+                          <span class="dot red"></span>
+                      </p>
+                      <p class="product-description">
+                          Disclaimer.
+                   In this video, segments of product stock ...
+                    <a class="learn-more" href="/products.html">Learn more</a>
+                      </p>
+                      <h4 class="product-price">$23.50</h4>
+                      <p class="product-rating">rating: 4.5/5</p>
+                      <a href="/products.html"> <button class="btn product-button">
+                              Add to cart
+                      </button></a>
+                  </div>
+                  
+              </article>
+              <article class="product card">
+                  <div class="badge">
+                      <span>5 in stock</span>
+                      <hr class="hr-design">
+                      <span>3 sold</span>
+                      
+                  </div>
+                  <img class="product-dtl" src="./images/3.png" alt="product1">
+                  <div class="product-body">
+                      <h3 class="product-name">product</h3>
+                      <p>
+                          <span class="dot green"></span>
+                          <span class="dot black"></span>
+                          <span class="dot red"></span>
+                      </p>
+                      <p class="product-description">
+                          Disclaimer.
+                   In this video, segments of product stock ...
+                    <a class="learn-more" href="/products.html">Learn more</a>
+                      </p>
+                      <h4 class="product-price">$23.50</h4>
+                      <p class="product-rating">rating: 4.5/5</p>
+                      <a href="/products.html"> <button class="btn product-button">
+                              Add to cart
+                          </button></a>
+                  </div>
+                  
+              </article>
+              <article class="product card">
+                  <div class="badge">
+                      <span>5 in stock</span>
+                      <hr class="hr-design">
+                      <span>3 sold</span>
+                      
+                  </div>
+                  <img class="product-dtl" src="./images/3.png" alt="product1">
+                  <div class="product-body">
+                      <h3 class="product-name">product</h3>
+                      <p>
+                          <span class="dot green"></span>
+                          <span class="dot black"></span>
+                          <span class="dot red"></span>
+                      </p>
+                      <p class="product-description">
+                          Disclaimer.
+                   In this video, segments of product stock ...
+                    <a class="learn-more" href="/products.html">Learn more</a>
+                      </p>
+                      <h4 class="product-price">$23.50</h4>
+                      <p class="product-rating">rating: 4.5/5</p>
+                      <a href="/products.html"> <button class="btn product-button">
+                              Add to cart
+                          </button></a>
+                  </div>
+                  
+              </article>
+              <article class="product card">
+                  <div class="badge">
+                      <span>5 in stock</span>
+                      <hr class="hr-design">
+                      <span>3 sold</span>
+                      
+                  </div>
+                  <img class="product-dtl" src="./images/3.png" alt="product1">
+                  <div class="product-body">
+                      <h3 class="product-name">product</h3>
+                      <p>
+                          <span class="dot green"></span>
+                          <span class="dot black"></span>
+                          <span class="dot red"></span>
+                      </p>
+                      <p class="product-description">
+                          Disclaimer.
+                   In this video, segments of product stock ...
+                    <a class="learn-more" href="/products.html">Learn more</a>
+                      </p>
+                      <h4 class="product-price">$23.50</h4>
+                      <p class="product-rating">rating: 4.5/5</p>
+                     <a href="/products.html"> <button class="btn product-button">
+                         Add to cart 
+                      </button></a>
+                  </div>
+                  
+              </article>
+              <article class="product card">
+                  <div class="badge">
+                      <span>5 in stock</span>
+                      <hr class="hr-design">
+                      <span>3 sold</span>
+                      
+                  </div>
+                  <img class="product-dtl" src="./images/3.png" alt="product1">
+                  <div class="product-body">
+                      <h3 class="product-name">product</h3>
+                      <p>
+                          <span class="dot green"></span>
+                          <span class="dot black"></span>
+                          <span class="dot red"></span>
+                      </p>
+                      <p class="product-description">
+                          Disclaimer.
+                   In this video, segments of product stock ...
+                    <a class="learn-more" href="/products.html">Learn more</a>
+                      </p>
+                      <h4 class="product-price">$23.50</h4>
+                      <p class="product-rating">rating: 4.5/5</p>
+                      <a href="/products.html"> <button class="btn product-button">
+                              Add to cart
+                      </button></a>
+                  </div>
+                  
+              </article>
+              <article class="product card">
+                  <div class="badge">
+                      <span>5 in stock</span>
+                      <hr class="hr-design">
+                      <span>3 sold</span>
+                      
+                  </div>
+                  <img class="product-dtl" src="./images/3.png" alt="product1">
+                  <div class="product-body">
+                      <h3 class="product-name">product</h3>
+                      <p>
+                          <span class="dot green"></span>
+                          <span class="dot black"></span>
+                          <span class="dot red"></span>
+                      </p>
+                      <p class="product-description">
+                          Disclaimer.
+                   In this video, segments of product stock ...
+                    <a class="learn-more" href="/products.html">Learn more</a>
+                      </p>
+                      <h4 class="product-price">$23.50</h4>
+                      <p class="product-rating">rating: 4.5/5</p>
+                      <a href="/products.html"> <button class="btn product-button">
+                              Add to cart
+                      </button></a>
+                  </div>
+                  
+              </article>
+              <article class="product card">
+                  <div class="badge">
+                      <span>5 in stock</span>
+                      <hr class="hr-design">
+                      <span>3 sold</span>
+                      
+                  </div>
+                  <img class="product-dtl" src="./images/3.png" alt="product1">
+                  <div class="product-body">
+                      <h3 class="product-name">product</h3>
+                      <p>
+                          <span class="dot green"></span>
+                          <span class="dot black"></span>
+                          <span class="dot red"></span>
+                      </p>
+                      <p class="product-description">
+                          Disclaimer.
+                   In this video, segments of product stock ...
+                    <a class="learn-more" href="/products.html">Learn more</a>
+                      </p>
+                      <h4 class="product-price">$23.50</h4>
+                      <p class="product-rating">rating: 4.5/5</p>
+                      <a href="/products.html"> <button class="btn product-button">
+                              Add to cart
+                      </button></a>
+                  </div>
+                  
+              </article>
+              
+          </section>
+          <div class="pagination">
+              <button class="btn pagination-btn"><</button>
+              <button class="btn pagination-btn">2</button>
+              <button class="btn pagination-btn">3</button>
+              <button class="btn pagination-btn">4</button>
+              <button class="btn pagination-btn">5</button>
+              <button class="btn pagination-btn">6</button>
+              <button class="btn pagination-btn">7</button>
+              <button class="btn pagination-btn">8</button>
+              <button class="btn pagination-btn">9</button>
+              <button class="btn pagination-btn">10</button>
+              <button class="btn pagination-btn">11</button>
+              <button class="btn pagination-btn">...</button>
+              <button class="btn pagination-btn">50</button>
+              <button class="btn pagination-btn">></button>
+          </div>
+          <!-- product section ends hear-->
+      </div>
+  </main>
+  
+  <!--futter start hear-->
+    <footer class="footer flex-space-around">
+        <label for="subscribe">subscribe to news letter</label>
+        <input type="email" name="subscribe" id="subscribe" class="futter-input" placeholder="Your email address">
+        <button class="btn btn-subscribe">subscribe</button>
+        <div class="flex-space-around">
+            <p>&copy;copyright 2023 Sharif, all right rserved</p>
+        </div>
+    </footer>
+  <!-- fuffer ends hear-->
+  
+  <script src="main.js"></script>
+</body>
+</html>
